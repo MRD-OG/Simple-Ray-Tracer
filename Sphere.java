@@ -18,7 +18,7 @@ public class Sphere extends Shape {
 
         xy = x*x - y;
 
-        if (xy > 0) {
+        if (xy >= 0) {
             xy = Math.sqrt(xy);
 
             // get the smallest positive first root - (root 1 is always closer so prioritise its computation)
